@@ -1,1 +1,15 @@
-{"__resolveType":"site/apps/deco/vtex.ts"}
+{
+  "__resolveType": "site/apps/deco/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public",
+    "channel": "1",
+    "currencyCode": "BRL",
+    "currencySymbol": "R$",
+    "countryCode": "BRA",
+    "cultureInfo": "pt-BR"
+  },
+  "platform": "vtex",
+  "account": "oficinareserva",
+  "publicUrl": "https://www.oficinareserva.com/",
+  "salesChannel": "defaultSegment"
+}
