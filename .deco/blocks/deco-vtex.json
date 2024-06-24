@@ -10,6 +10,6 @@
   },
   "platform": "vtex",
   "account": "oficinareserva",
-  "publicUrl": "https://www.oficinareserva.com/",
-  "salesChannel": "defaultSegment"
+  "publicUrl": "www.oficinareserva.com",
+  "salesChannel": "1"
 }
