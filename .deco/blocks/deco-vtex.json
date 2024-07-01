@@ -2,7 +2,7 @@
   "__resolveType": "site/apps/deco/vtex.ts",
   "defaultSegment": {
     "channelPrivacy": "public",
-    "channel": "1",
+    "channel": "5",
     "currencyCode": "BRL",
     "currencySymbol": "R$",
     "countryCode": "BRA",
@@ -11,5 +11,5 @@
   "platform": "vtex",
   "account": "oficinareserva",
   "publicUrl": "www.oficinareserva.com",
-  "salesChannel": "1"
+  "salesChannel": "5"
 }
