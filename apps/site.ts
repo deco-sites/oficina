@@ -10,6 +10,13 @@ import { Section } from "deco/blocks/section.ts";
 import type { App as A, AppContext as AC } from "deco/mod.ts";
 import { rgb24 } from "std/fmt/colors.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
+import { Secret } from "apps/website/loaders/secret.ts";
+
+/** @title {{key}} */
+interface MandrillKey {
+  key: string;
+  value: Secret;
+}
 
 export interface Props extends WebsiteProps {
   /**
@@ -19,6 +26,7 @@ export interface Props extends WebsiteProps {
    */
   platform: Platform;
   theme?: Section;
+  mandrillKeys?: Array<MandrillKey>;
 }
 
 export type Platform =
